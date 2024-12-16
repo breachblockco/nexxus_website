@@ -1,38 +1,142 @@
-import React, { useState, useEffect } from "react";
-import { motion } from "framer-motion";
+/*
+import React, { useEffect, useState } from "react";
 
-function HeroSection() {
+const TypewriterEffect = ({ text, speed }) => {
+  const [displayedText, setDisplayedText] = useState("");
   const [index, setIndex] = useState(0);
 
-  // Change the index every 5 seconds
   useEffect(() => {
-    const interval = setInterval(() => {
-      setIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 5000); // Change image every 5 seconds
+    if (index < text.length) {
+      const timeout = setTimeout(() => {
+        setDisplayedText((prev) => prev + text[index]);
+        setIndex(index + 1);
+      }, speed);
 
-    return () => clearInterval(interval);
-  }, []);
-  const images = [
-    "/images/herosection/img1.jpg",
-    "/images/herosection/img2.jpg",
-    "/images/herosection/img3.jpg",
-    "/images/herosection/img4.jpg",
-  ];
+      return () => clearTimeout(timeout);
+    }
+  }, [index, text, speed]);
+
+  return <span>{displayedText}</span>;
+};
+
+const App = () => {
   return (
-    <div className="w-full h-screen absolute left-0 top-0 ovex">
-      <motion.div
-        key={index} // Make sure to animate the new element
-        className="w-full h-full bg-cover bg-center"
+    <div style={{ fontSize: "22rem", fontFamily: "monospace",text:"Bold",color:"white" }}>
+      <TypewriterEffect text="NEXUS" speed={200} />
+    </div>
+  );
+};
+
+export default App;
+*/
+/*
+import React, { useEffect, useState } from "react";
+
+const TypewriterEffect = ({ text, speed }) => {
+  const [displayedText, setDisplayedText] = useState("");
+  const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    if (index < text.length) {
+      const timeout = setTimeout(() => {
+        setDisplayedText((prev) => prev + text[index]);
+        setIndex(index + 1);
+      }, speed);
+
+      return () => clearTimeout(timeout);
+    }
+  }, [index, text, speed]);
+
+  const isTyping = index < text.length;
+
+  return (
+    <span style={{ color: isTyping ? "red" : "white" }}>
+      {displayedText}
+    </span>
+  );
+};
+
+const App = () => {
+  return (
+    <div
+      style={{
+        fontSize: "22rem",
+        fontFamily: "monospace",
+        fontWeight: "bold",
+        textAlign: "center",
+        height: "60vh",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+       
+      }}
+    >
+      <TypewriterEffect text="NEXUS" speed={200} />
+      
+    </div>
+  );
+};
+
+export default App;
+
+*/
+import React, { useEffect, useState } from "react";
+
+const TypewriterEffect = ({ text, speed }) => {
+  const [displayedText, setDisplayedText] = useState("");
+  const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    if (index < text.length) {
+      const timeout = setTimeout(() => {
+        setDisplayedText((prev) => prev + text[index]);
+        setIndex(index + 1);
+      }, speed);
+
+      return () => clearTimeout(timeout);
+    }
+  }, [index, text, speed]);
+
+  const isTyping = index < text.length;
+
+  return (
+    <span style={{ color: isTyping ? "red" : "white" }}>
+      {displayedText}
+    </span>
+  );
+};
+
+const App = () => {
+  return (
+    <div
+      style={{
+        fontFamily: "monospace",
+        fontWeight: "bold",
+        textAlign: "center",
+        height: "100vh",
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+      }}
+    >
+     
+      <div
         style={{
-          backgroundImage: `url(${images[index]})`,
+          fontSize: "22rem",
         }}
-        initial={{ opacity: 0 }} // Start with opacity 0 (invisible)
-        animate={{ opacity: 1 }} // Animate to opacity 1 (visible)
-        exit={{ opacity: 0 }} // Exit animation (optional)
-        transition={{ duration: 1 }} // Set the fade-in duration
+      >
+        <TypewriterEffect text="NEXUS" speed={200} />
+      </div>
+
+      
+      <img
+         src="/images/herosection/img1.jpg"
+        alt="Placeholder"
+        style={{ marginTop: "0px", width: "2000px", height: "300px" }}
       />
     </div>
   );
-}
+};
 
-export default HeroSection;
+export default App;
