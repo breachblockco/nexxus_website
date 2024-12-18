@@ -27,9 +27,9 @@ import React from "react";
 function Navbar() {
   return (
     <div className="w-full h-[90px] py-4 flex justify-between  px-20 z-20">
-      <div className="nav-left w-[10vw]">
+      <div className="nav-left h-full w-[15vw]">
         <img
-          src="/images/navbar/logo.jpg"
+          src="/images/navbar/logo.png"
           alt="Logo"
           className="w-full h-full"
         />
@@ -43,7 +43,7 @@ function Navbar() {
               className="relative px-5 py-2 text-xl text-black rounded-full leading-none flex justify-center items-center transition-all duration-500 group"
             >
               {/* Background Effect */}
-              <span className="absolute inset-0 bg-[#E3E0DA] rounded-full scale-0 group-hover:scale-100 transition-transform duration-500"></span>
+              <span className="absolute inset-0 bg-[#4361EE] rounded-full scale-0 group-hover:scale-100 transition-transform duration-500"></span>
               {/* Text Content */}
               <span className="relative z-10">{links}</span>
             </a>
