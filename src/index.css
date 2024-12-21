@@ -2,3 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.nunito-family {
+  font-family: "Nunito", serif;
+}
+
+.merri-family {
+  font-family: "Merriweather Sans", serif;
+}
