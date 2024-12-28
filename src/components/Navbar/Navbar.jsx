@@ -36,7 +36,7 @@ function Navbar() {
             <a
               href={
                 link === "Enquiry"
-                  ? "https://docs.google.com/forms/d/e/1FAIpQLSfpfim9D8MH1aFgaUPZjMLVWQ1i79tpmkZhzwsD5rQKlnKFVQ/viewform?usp=header"
+                  ? "https://forms.gle/ySx62ixVLbsvMTpV8"
                   : `#${link}`
               }
               key={index}
@@ -65,7 +65,7 @@ function Navbar() {
                 <a
                   href={
                     link === "Enquiry"
-                      ? "https://docs.google.com/forms/d/e/1FAIpQLSfpfim9D8MH1aFgaUPZjMLVWQ1i79tpmkZhzwsD5rQKlnKFVQ/viewform?usp=header"
+                      ? "https://forms.gle/ySx62ixVLbsvMTpV8"
                       : `#${link}`
                   }
                   key={index}
