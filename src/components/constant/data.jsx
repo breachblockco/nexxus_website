@@ -4,46 +4,42 @@ export const Products = [
     image: "./images/Products/img1.jpg",
     title: "Kirloskar Generators",
     price: "$ 10,000",
-    desc: "Our company is an authorized distributor of generators of Kirloskar make. The Kirloskar green range of ready-to-use Gen sets comes with standardized build. Plus, with flexible options, you can be assured of having your unique and demanding requirements met. These carry the stamp of the legendary Kirloskar quality and reliability, besides ensuring a high level of standardization. For your convenience we also offer you a free access to the used manual on the internet.",
+    desc: "As a leading provider of Kirloskar generators, we offer a comprehensive range of power solutions for your diverse needs. From residential and commercial applications to industrial and emergency backup, we provide sales and service for the entire line of durable and efficient Kirloskar generators.",
   },
   {
     id: 2,
     image: "./images/Products/img2.jpg",
     title: "Cummins Generators",
     price: " $ 10,000",
-    desc: `We are an authorized dealer of gen sets of Cummins. At Cummins Generator, it’s not just the products we make that set us apart it’s how we engage our customer’s every day. The unique combination of knowledge, dependability and innovation we bring to each customer relationship turns everyday service into excellent customer support.
-    As a result we help our customers operate with greater efficiency, making it possible for them to compete more successfully throughout the world.`,
+    desc: `When it comes to reliable and efficient power solutions, Cummins stands as a global leader. We are proud to offer a comprehensive range of Cummins generators, designed to meet the diverse power needs of residential, commercial, and industrial applications.`,
   },
   {
     id: 3,
     image: "./images/Products/img3.jpg",
     title: "Ashok Leyland Generators",
     price: " $ 10,000",
-    desc: `Ashok Leyland, leading Engine Service Provider offers diesel engines for industrial, gen set and marine applications.
-    Generator varies from 5 KVA to 1250 KVA. We also offer water cooled type machines used in these generators.
-    These generators have the capability of taking large loads of A/C, refrigerators, computers and other applications. The canopy 12.5 KVA have gained huge acknowledgement for reliable performance, high efficiency, low emissions and maximum power output. This entire range is available in different specifications, which can however be tailor made as per clients requirements .`,
+    desc: `Experience Power That Moves You with Ashok Leyland Generators
+Backed by the legacy of a renowned automotive giant, Ashok Leyland Generators deliver robust and reliable power solutions. Engineered with precision and built to last, these generators are designed to meet the diverse power demands of various sectors, including construction, industries, and events.`,
   },
   {
     id: 4,
     image: "./images/Products/img4.jpg",
     title: "CatterPiller Generators",
     price: "$ 10,000",
-    desc: `Diesel generators have become an indispensable part of every commercial activity. Their very existence assures a smooth business activity in the event of electricity failure Caterpillar Hyderabad has been regarded as a well known Service Provider of diesel generators ranging from 5 KVA to 1250 KVA (kilo-volt-amperes) range.
-    Our products are built with several state-of the-art features such as less fuel consumption, less maintenance due to adherence with prevailing emission norms, consistent performance even in adverse conditions and easy installation and operation.`,
+    desc: `Experience unparalleled reliability and performance with Caterpillar generators, renowned globally for their exceptional quality and durability. Engineered with precision and built to withstand the toughest conditions, Caterpillar generators deliver consistent power across a wide range of applications, from industrial and commercial settings to remote locations.`,
   },
   {
     id: 5,
     image: "./images/Products/img5.jpg",
     title: "Mahindra Generators",
     price: "$ 10,000",
-    desc: `Mahindra Powerol Gensets are Soundproof, Weatherproof and Environment Friendly. These are compact in design and comply with the most stringent CPCB norms. We have successfully installed these Gensets at diverse applications like: MNC’s, Industries, Petrol Pumps & Gas Stations, Hospitals, Banks, Construction Sites, Hotels &Resorts and at many others.`,
+    desc: `Experience the Power of Mahindra Generators Built on a foundation of innovation and trust, Mahindra Generators deliver reliable and efficient power solutions for a wide range of applications. Backed by the strength of the Mahindra Group, these generators are engineered with precision and built to withstand demanding conditions.`,
   },
   {
     id: 6,
     image: "./images/Products/img6.jpg",
     title: "Rental Generators",
     price: "$ 10,000",
-    desc: `DSR Power Systems provides rental generators ranging from 30KVA to 500KVA with a strong reputation as a supplier of reliable engines, leadership in emissions solutions, and years of experience in generator technology.DSR Power Systems is also a global supplier of mobile generator sets designed for the rental industry. These mobile generator sets are supported by the largest network of distributors and dealers in the industry.
-    With a strong reputation as a supplier of reliable engines of leadership in emissions solutions, and years of experience in generator technology,  Pioneer rental Power  Generation is the reliable   supplier of mobile generator sets designed for the rental industry. These mobile generator sets are supported by the well trained service engineers  and operating personnel in the industry.`,
+    desc: `Power Your Projects with Our Reliable Generator Rentals.Need temporary power for your construction site, event, or emergency situation? Look no further! We offer a wide range of reliable and fuel-efficient generators for rent, tailored to meet your specific power needs.`,
   },
 ];
