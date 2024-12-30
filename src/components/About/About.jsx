@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <section
-      className="w-full bg-white py-10 px-4 sm:px-6 md:px-10 lg:px-10 "
+      className="w-full bg-white py-10 "
       id="About"
     >
       <div className="flex flex-col lg:flex-row items-start gap-8">
