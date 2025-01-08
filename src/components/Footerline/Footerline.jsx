@@ -12,4 +12,4 @@ const Footerline = () => {
   );
 };
 
-export default Footerline;
+export default Footerline
