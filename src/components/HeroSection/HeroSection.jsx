@@ -22,7 +22,7 @@ const HeroSection = () => {
   };
 
   return (
-    <div className="w-full px-4 md:px-10 py-6 flex flex-col lg:flex-row items-center justify-between gap-8 mt-20 sm:mt-24 lg:mt-28">
+    <div className="w-full  py-6 flex flex-col lg:flex-row items-center justify-between gap-8 mt-20 sm:mt-24 lg:mt-28">
      
       <div className="hero-left w-full lg:w-[48%] flex flex-col justify-center text-center lg:text-left">
         <h5 className="nunito-family text-sm sm:text-lg md:text-xl font-bold text-blue-700">

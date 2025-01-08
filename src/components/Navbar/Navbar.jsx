@@ -9,17 +9,17 @@ function Navbar() {
   };
 
   return (
-    <div className="w-full h-[90px] py-4 flex justify-between px-5 z-30 merri-family fixed top-0 left-0 bg-white">
-      {/* Logo Section */}
-      <div className="nav-left flex items-center h-full w-[15vw]">
+    <div className="w-full h-[90px]  py-4 flex justify-between px-10 z-30 merri-family fixed top-0 left-0 bg-white">
+     
+      <div className="nav-left flex items-center h-full sm:w-[15vw] w-[30vw]  ">
         <img
           src="/images/navbar/logo.png"
           alt="Logo"
-          className="object-contain max-h-[70px] max-w-full"
+          className="object-contain max-h-[170px] sm:max-h-[90px] max-w-full"
         />
       </div>
 
-      {/* Hamburger Icon for Mobile */}
+      
       <div className="lg:hidden flex items-center">
         <button
           onClick={toggleMenu}

@@ -60,7 +60,7 @@ const Products = () => {
 
   return (
     <section
-      className="flex flex-col items-start justify-between px-5 sm:px-10 w-full overflow-hidden text-black my-4"
+      className="flex flex-col items-start justify-between pt-6 w-full overflow-hidden text-black my-4"
       id="Products"
     >
       <h2 className="text-lg sm:text-3xl lg:text-5xl font-non-italic w-full my-2 merri-family text-blue-700 font-semibold text-center">
@@ -83,12 +83,12 @@ const Products = () => {
         </button>
 
         {/* Carousel Container */}
-        <div className="flex gap-6 sm:gap-10 w-full justify-center overflow-hidden">
+        <div className="flex gap-6 sm:gap-10 w-full py-6 justify-center overflow-hidden">
           {visibleProducts.map((product, index) => (
             <div
               key={product.id}
               ref={(el) => (productRefs.current[currentIndex + index] = el)}
-              className="bg-white rounded-[10px] sm:rounded-[10px] shadow-lg p-4 sm:p-6 text-center hover:shadow-2xl transition-shadow duration-300 w-[300px] sm:w-[370px] h-[360px] sm:h-[420px]"
+              className="bg-white rounded-[10px] sm:rounded-[10px] shadow-lg p-4 sm:p-6 text-center hover:shadow-2xl transition-shadow duration-300 w-[300px] sm:w-[370px] h-[360px] sm:h-[450px]"
             >
               <div className="flex flex-col items-center">
                 <img
